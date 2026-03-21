@@ -19,3 +19,6 @@
     clear: both;
 }
 
+.big {
+    height: calc(20vh + 10px);
+}
