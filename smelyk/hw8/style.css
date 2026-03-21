@@ -1,0 +1,21 @@
+.container_div {
+    background-color: hsl(87, 78%, 45%);
+    width: 15vw;
+    height: 10vh;
+    margin: 10px;
+}
+
+.left1 {
+    float:left;
+}
+
+.right1 {
+    float:right;
+}
+
+.container1::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
